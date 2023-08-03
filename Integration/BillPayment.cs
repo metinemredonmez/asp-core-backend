@@ -66,7 +66,7 @@ namespace WebApplication1.Integration
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -164,7 +164,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -255,7 +255,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -346,7 +346,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -437,7 +437,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -528,7 +528,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -619,7 +619,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -710,7 +710,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -801,7 +801,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
@@ -892,7 +892,7 @@ namespace WebApplication1.Integration
                 {
                     var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(request, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
-                    request_.Headers.Add("X-IBM-Client-Id", "f4d5239e0de729e7de80554f6e2452bd");
+                    request_.Headers.Add("X-IBM-Client-Id", "client_id");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("application/json"));
